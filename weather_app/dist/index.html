@@ -27,7 +27,7 @@
                 </form>
             </section>
             <a href="#current-forecast" class="skip-link">Skip to Current Conditions</a>
-            <section id="current-forecast" class="current-forecast" role="region" aria-labelledby="weatherLocation">
+            <section id="current-forecast" class="current-forecast" role="region" aria-labelledby="current-forecast-location">
                 <h2 id="current-forecast-location" class="current-forecast-location">Current Conditions</h2>
                 <div id="current-forecast-conditions" class="current-forecast-conditions">
 
@@ -47,7 +47,7 @@
                     <i class="fas fa-save"></i>
                     <i class="fas fa-sync fa-spin"></i>
                 </button>
-                <button id="unit" class="button" title="Toggle Measurment Units" aria-label="Toggle between farenheight and celsius units">
+                <button id="unit" class="button" title="Toggle Measurement Units" aria-label="Toggle between fahrenheit and celsius units">
                     <i class="fas fa-chart-bar"></i>
                     <i class="fas fa-sync fa-spin"></i>
                 </button>
@@ -56,9 +56,12 @@
                     <i class="fas fa-sync fa-spin"></i>
                 </button>
             </nav>
-            <section id="daily-forecast" class="daily-forecast">
-
+            <hr>
+            <section id="daily-forecast" class="daily-forecast" role="region" aria-labelledby="daily-forecast-title"></section>
+                <h2 id="daily-forecast-title" class="daily-forecast-title">Six Day Forecast</h2>
+                <div id="daily-forecast-contnet" class="daily-forecast-contents"></div>
             </section>
+            <p id="confirmation" class="offscreen" aria-live="assertive"></p>
        </main>
         
         <script src="#" async defer></script>
