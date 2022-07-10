@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Responsive Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <main>
+            <h1>Responsive Weather App Powered by The Open Weather A P I</h1>
+            <section id= "search-bar" class="search-bar">
+                <form id="search-bar-form" class="search-bar-form" role="search">
+                    <label for="search-bar-text">Enter a new location</label>
+                    <input id="search-bar-text" class="search-bar-text" type="text" role="searchbox" size="40" autocomplete="off" placeholder="City, State, Country">
+                    <button id="search-bar-button" class="search-bar-button" title="Submit Location" aria-label="Enter Zipcode or City, State and Country to retrieve weather conditions">
+                        <i class="fa fa-search"></i>
+                        <i class="fas fa-sync fa-spin"></i>
+                    </button>
+                </form>
+            </section>
+            <a href="#current-forecast" class="skip-link">Skip to Current Conditions</a>
+            <section id="current-forecast" class="current-forecast" role="region" aria-labelledby="weatherLocation">
+                <h2 id="current-forecast-location" class="current-forecast-location">Current Conditions</h2>
+                <div id="current-forecast-conditions" class="current-forecast-conditions">
+
+                </div>
+            </section>
+            <a href="#daily-forecast" class="skip-link">Skip to Six Day Forecast</a>
+            <nav id="nav-buttons" class="nav-buttons">
+                <button id="get-location" class="button" title="Get Location" aria-label="Get the current weather conditions for your current location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fas fa-sync fa-spin"></i>
+                </button>
+                <button id="home" class="button" title="Home weather" aria-label="Get the current weather conditions for your home location">
+                    <i class="fas fa-home"></i>
+                    <i class="fas fa-sync fa-spin"></i>
+                </button>
+                <button id="save-location" class="button" title="Save location" aria-label="Save the current location as your home location">
+                    <i class="fas fa-save"></i>
+                    <i class="fas fa-sync fa-spin"></i>
+                </button>
+                <button id="unit" class="button" title="Toggle Measurment Units" aria-label="Toggle between farenheight and celsius units">
+                    <i class="fas fa-chart-bar"></i>
+                    <i class="fas fa-sync fa-spin"></i>
+                </button>
+                <button id="refresh" class="button" title="refresh weather" aria-label="refresh the current weather conditions">
+                    <i class="fas fa-sync-alt"></i>
+                    <i class="fas fa-sync fa-spin"></i>
+                </button>
+            </nav>
+            <section id="daily-forecast" class="daily-forecast">
+
+            </section>
+       </main>
+        
+        <script src="#" async defer></script>
+    </body>
+</html>
