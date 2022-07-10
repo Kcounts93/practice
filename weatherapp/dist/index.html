@@ -11,12 +11,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/main.min.css">
     </head>
     <body>
        <main>
             <h1>Responsive Weather App Powered by The Open Weather A P I</h1>
-            <section id= "search-bar" class="search-bar">
+            <section id="search-bar" class="search-bar">
+                <h2>search bar form</h2>
                 <form id="search-bar-form" class="search-bar-form" role="search">
                     <label for="search-bar-text">Enter a new location</label>
                     <input id="search-bar-text" class="search-bar-text" type="text" role="searchbox" size="40" autocomplete="off" placeholder="City, State, Country">
@@ -27,7 +28,7 @@
                 </form>
             </section>
             <a href="#current-forecast" class="skip-link">Skip to Current Conditions</a>
-            <section id="current-forecast" class="current-forecast" role="region" aria-labelledby="current-forecast-location">
+            <section id="current-forecast" class="current-forecast">
                 <h2 id="current-forecast-location" class="current-forecast-location">Current Conditions</h2>
                 <div id="current-forecast-conditions" class="current-forecast-conditions">
 
@@ -57,7 +58,7 @@
                 </button>
             </nav>
             <hr>
-            <section id="daily-forecast" class="daily-forecast" role="region" aria-labelledby="daily-forecast-title"></section>
+            <section id="daily-forecast" class="daily-forecast">
                 <h2 id="daily-forecast-title" class="daily-forecast-title">Six Day Forecast</h2>
                 <div id="daily-forecast-contnet" class="daily-forecast-contents"></div>
             </section>
