@@ -1,5 +1,5 @@
 [Projects](https://www.vanillajavascriptprojects.com/)
-
+Javascript Practice Folder
 1. Color Flipper
 2. Counter
 3. Reviews
@@ -29,3 +29,4 @@
 27. Pagination
 28. Wikipedia
 29. Comfy Sloth
+
