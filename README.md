@@ -1,5 +1,6 @@
 [Projects](https://www.vanillajavascriptprojects.com/)
-Javascript Practice Folder
+Javascript Practice Folder Contents:
+
 1. Color Flipper
 2. Counter
 3. Reviews
@@ -30,3 +31,4 @@ Javascript Practice Folder
 28. Wikipedia
 29. Comfy Sloth
 
+Meta Certification through Coursera:
