@@ -30,5 +30,3 @@ Javascript Practice Folder Contents:
 27. Pagination
 28. Wikipedia
 29. Comfy Sloth
-
-Meta Certification through Coursera:
